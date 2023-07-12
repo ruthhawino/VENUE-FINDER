@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>VENUE FINDER LOGIN</title>
+      
+      <script
+     src="https://code.jquery.com/jquery-3.6.0.js"
+     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+     crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="css/login.css">
+
+ </head>
+ <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+/>
+ <body>
+     <div class="hero1">
+         
+        <div class="navbar">
+            <a href="index.html">VENUE FINDER</a>
+            <a href="home.html">HOTELS</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="">REVIEWS</a>
+    
+           </div>  
+
+
+          <div>
+           <div class="container-fluid container">
+              <form action="home.html">
+                <div class="title">
+                    <h3>Sign In</h3>
+                </div>
+              <div class="form-container">
+                  <input class="email" required type="email" id="email" placeholder="Enter Email or phone number..." />
+                  <p id="errorMessage">
+                      <b>Please Enter a valid Email or Phone Number</b>
+                  </p>
+                  <p id="errorMessage1">
+                      <b>Incorrect Password!!</b>
+                  </p>
+              </div>
+              <div class="form-container">
+                <input class="form-control-input" required type="password" id="myInput" placeholder="Enter Password..." />
+                <input type="checkbox" onclick="myFunction()">Show Password
+              </div>
+      
+              <button class="btn" id="signin" type="submit"><b>Sign In</b></button>
+              <div class="signup">
+                  <p><b>New to SpaceFinder?</b><a href="#"><b> Sign Up Now</b></a></p>
+              </div>
+            </form>
+      
+          </div>
+         </div>
+     </div>
+
+     <div class="con">
+        <h6 class="part">partner with us today</h6>
+        <p><i class="fa-brands fa-facebook text-primary"></i>
+           <i class="fa-brands fa-twitter text-primary"></i>
+           <i class="fa-brands fa-instagram  "></i>
+           <i class="fa-brands fa-linkedin text-primary"></i>
+           <i class="fa-brands fa-youtube text-danger"></i>
+           <i id="hide" class="fa-solid fa-phone-flip text-success"></i>
+           </p>
+           <p id="show" class="p"><a href="tel:5554280940"></a></i></p>
+           <p class="copy">space finder. 2022 all rights reseved.
+    </p>
+
+    </div>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
+     <script src="js/login.js"></script>
+ </body>
+</html>

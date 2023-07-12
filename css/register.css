@@ -1,0 +1,145 @@
+body{
+    background-image: url("../images/party3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.navbar {
+    display: flex;
+    gap: 2%;
+    background-color:rgb(35, 190, 190);
+    padding: 10px;
+  }
+  
+  .navbar a {
+    font: 1em sans-serif;
+    color: white;
+    text-decoration:solid;
+    padding: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: aqua;
+  }
+
+form .message{
+    margin: 15px 0 0;
+    font-size: 12px;
+}
+form{
+    position: relative;
+    top: 100px;
+    height: 550px;
+    padding-top: 10px;
+    background: white;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center; 
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 25px 25px #888888;
+    border-radius: 20px;
+    padding-right: 80px;
+    opacity: 0.8;
+}
+.form input{
+    font-family: "roboto" sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+}
+.form button{
+    font-family: "roboto" sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: black;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius:  5px;
+}
+.form button:hover,.form button:active{
+    background: brown;
+
+}
+contact{
+    text-align: center;
+}
+
+
+.form .message a{
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+select{
+    font-family: "roboto" sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+.m-3{
+    position: relative;
+}
+header .seal{
+    font-size: 30px;
+    font-weight: 600px;
+    float: left;
+    font-size: 60px;
+    color: brown;
+}
+header .list{
+    float: right;
+    margin-top: 7px;
+}
+header ul li{
+    display: inline-block;
+    font-weight: bold;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    margin: 0 20px;
+    letter-spacing: 1px;
+}
+
+.con{
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    color: rgb(76, 76, 216);
+  
+  }
+  
+  .con .copy{
+    font-size: medium;
+    color: black;
+    margin-top: 15px;
+  }
+  
+  .con i{
+    margin-left: 30px;
+  }

@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(35, 190, 190);
+    padding: 10px;
+  }
+  
+  .navbar a {
+    font: 1em sans-serif;
+    color: white;
+    text-decoration:solid;
+    padding: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: aqua;
+  }

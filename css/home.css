@@ -1,0 +1,203 @@
+body{
+    background-color: #cac1c1;
+    margin: 0;
+    font-family: serif;
+    padding: 0;
+}
+
+.back .seal{
+    font-size: 30px;
+    font-weight: 600px;
+    float: left;
+    font-size: 60px;
+    color: brown;
+}
+
+.back .list{
+    float: right;
+    margin-top: 7px;
+}
+
+.back ul li{
+    display: inline-block;
+    
+}
+
+.back ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    margin: 0 20px;
+    letter-spacing: 1px;
+}
+.back ul li a:hover{
+    color: #0e56c2;
+}
+
+.intro{
+    background-image: url("/images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+     
+}
+
+img{
+    border-radius: 50px;
+    width: 80%;
+}
+
+.menus1 img{
+    height: 50%;
+    margin-top: 30px;
+}
+.border{
+    border: 2px solid rgb(8, 12, 8);
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    margin-left: 90px;
+    width: 400px;
+    height: 700px;
+    background-color: rgb(241, 243, 233);
+    box-shadow: 5px 5px 25px 25px #888888;
+    margin-top: 100px;
+    opacity: 0.8;
+}
+
+button{
+    background-color: rgb(28, 91, 207);
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+
+h4{
+    color: brown;
+    padding-top: 15px;
+}
+
+ i{
+    color: rgb(38, 38, 117);
+}
+
+.fa-star{
+    color: #c2a70e;
+}
+
+.fa-star-half-stroke{
+    color: #c2a70e;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+.intro h1{
+    padding-top: 200px;
+    padding-left: 100px;
+    color: blue;
+    font-weight: bold;
+    margin-left: 20%;
+    
+    
+}
+
+
+.intro h3{
+    padding-left: 100px;
+    color:blue;
+    font-weight: bold;
+    margin-left: 20%;
+  
+ 
+}
+.seal .fa-solid{
+    color:blue;
+ 
+}
+
+.coment{
+    padding-top: 100px;
+    position: relative;
+    right: 500px;
+}
+.contact{
+    padding-top: 600px;
+    text-align: center;
+}
+
+.copy{
+    text-align: center;
+}
+
+.contact .fa-brands{
+    font-size: 50px;
+    margin: 30px;
+    margin-bottom: 5px;
+}
+
+.contact  .fa-phone-flip{
+    font-size: 40px;
+}
+
+#email{
+    width: 400px;
+}
+
+#name{
+    width: 400px;
+}
+
+#message{
+    width: 400px;
+    margin-left: -18px;
+}
+
+form{
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.fame{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.space a{
+    background-color: rgb(28, 91, 207);
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    text-decoration: none;
+}
+
+.change{
+    color: aqua;
+}
+.intro h1 h3{
+    background-color: #888888;
+}
+
+
+.navbar {
+    display: flex;
+    gap:2%;
+    background-color:rgb(35, 190, 190);
+    padding: 10px;
+  }
+  
+  .navbar a {
+    font: 1em sans-serif;
+    color: white;
+    text-decoration:solid;
+    padding: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color:aqua;
+  }
